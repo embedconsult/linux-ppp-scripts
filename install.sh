@@ -44,8 +44,8 @@ cp 000routedown $TARGET/ip-down.d/
 # sed -i '9,9c exit 0' /etc/ppp/ip-up.d/000resolvconf
 # cp ip-up $TARGET/
 # chmod a+x $TARGET/ip-up
-cp quectel-onoff.sh /usr/bin/
-chmod a+x /usr/bin/quectel-onoff.sh
+cp quectel-onoff.sh /usr/local/bin/
+chmod a+x /usr/local/bin/quectel-onoff.sh
 
 # 3. Remove service ModemManager
 # Modem Manager will cause ppp unstable

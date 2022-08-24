@@ -8,5 +8,5 @@
 # This file is part of the Quectel script.
 #
 
-route add default gw 192.168.4.2
+#route add default gw 192.168.4.2
 exit 0

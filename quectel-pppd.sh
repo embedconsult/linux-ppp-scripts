@@ -2,10 +2,10 @@
 
 #quectel-pppd devname apn user password
 echo "quectel-pppd options in effect:"
-QL_DEVNAME=/dev/ttyUSB3
-QL_APN=3gnet
-QL_USER=user
-QL_PASSWORD=passwd
+QL_DEVNAME=/dev/ttyS4
+QL_APN=hologram
+QL_USER=
+QL_PASSWORD=
 if [ $# -ge 1 ]; then
 	QL_DEVNAME=$1	
 	echo "devname   $QL_DEVNAME    # (from command line)"

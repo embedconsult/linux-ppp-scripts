@@ -1,7 +1,7 @@
 # /etc/ppp/peers/quectel
 # Usage:root>pppd call quectel
 #Modem path, like /dev/ttyUSB3,/dev/ttyACM0, depend on your module, default path is /dev/ttyUSB3
-/dev/ttyUSB3 115200
+/dev/ttyS4 115200
 #Insert the username and password for authentication, default user and password are test
 user "true" password "true"
 # True Move H

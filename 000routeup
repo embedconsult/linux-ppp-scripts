@@ -9,5 +9,5 @@
 #
 
 route add default dev ${PPP_IFACE}
-route del default dev eth0
+#route del default dev eth0
 exit 0
